@@ -1,0 +1,12 @@
+<template name="applayout">
+  <div class="container">
+    <nav class="pushy z-depth-5">
+      {{> title }}
+    </nav>
+    {{>header}}
+    {{> yield}}
+    <div class='foot'>
+      {{> footer}}
+    </div>
+  </div>
+</template>
